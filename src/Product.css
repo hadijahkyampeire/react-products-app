@@ -1,0 +1,53 @@
+.products-section {
+  margin: 2rem;
+}
+
+.products-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.product-card {
+  border: 1px solid green;
+  width: 30%;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.product-title {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.5rem;
+}
+
+.view-details {
+  background-color: rgba(128, 128, 128, 0.449);
+  padding: 0.2rem 0.5rem;
+  border-radius: 0.2rem;
+  margin-bottom: 1.5rem;
+  color: green;
+  font-weight: 500;
+  display: block;
+}
+
+.description-and-thumbnail {
+  display: flex;
+}
+
+.product-card label {
+  font-weight: 600;
+  margin-right: 0.2rem;
+}
+
+.carousel {
+  height: 20rem;
+}
+
+.carousel-item img {
+  height: 20rem;
+}

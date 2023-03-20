@@ -1,0 +1,56 @@
+.single-product-card {
+  border: 1px solid green;
+  width: 80%;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  margin: 2rem auto;
+}
+
+.product-title {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.5rem;
+}
+
+.description-and-thumbnail {
+  display: flex;
+}
+
+.single-product-card label {
+  font-weight: 600;
+  margin-right: 0.2rem;
+}
+
+.carousel {
+  height: 20rem;
+}
+
+.carousel-item img {
+  height: 20rem;
+}
+
+.edit-product, .delete-product {
+  padding: 0.2rem 0.5rem;
+  border-radius: 0.2rem;
+  margin-bottom: 1rem;
+  font-weight: 500;
+  display: block;
+}
+
+.edit-product {
+  background-color: blue;
+  color: white;
+  margin-right: 2rem;
+}
+
+.delete-product {
+  background-color: red;
+  color: white;
+}
+
+.action-buttons {
+  display: flex;
+  margin-top: 1rem;
+}

@@ -1,0 +1,10 @@
+.add-product-form {
+  margin: 1rem auto;
+  width: 60%;
+}
+
+.add-product-form form {
+  border: 1px solid gray;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
